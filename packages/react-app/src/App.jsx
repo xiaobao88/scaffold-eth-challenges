@@ -242,7 +242,7 @@ function App(props) {
 
   // Then read your DAI balance like:
   const myMainnetDAIBalance = useContractReader(mainnetContracts, "DAI", "balanceOf", [
-    "0x34aA3F359A9D614239015126635CE7732c18fDF3",
+    "0xfC140D481F05CC2683e5fcb22EC3ff5d93Ece715",
   ]);
 
   //keep track of contract balance to know how much has been staked total:
